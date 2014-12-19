@@ -58,9 +58,10 @@ p, ul, ol, pre, table, blockquote {
 }
 
 /* Sanitation */
+
 hr {
-	border: 1px solid;
-	margin: -1px 0;
+	border: 2px dashed #000;
+	margin: 5em 0;
 }
 ul ul, ol ol, ul ol, ol ul {
 	margin-top: 0;
@@ -76,6 +77,10 @@ sup, sub {
 }
 sub {
 	top: 0.4em;
+}
+img {
+	width: 100%;
+	height: auto;
 }
 /*HEADER*/
 header {
@@ -211,8 +216,6 @@ FRONT-PAGE
 	font-size: 1.611111111em;
 	font-weight: 500;
 }
-
-img {}
 
 .intro {/*
 	padding: 1.5em;
@@ -353,9 +356,6 @@ SINGLE.PHP (blog post)
 	font-family: "jubilat";
 	font-weight: 700;
 }
-.single-post-date {
-
-}
 .single-post-share {
 	max-width: 20em;
 	margin: auto;
@@ -371,24 +371,9 @@ SINGLE.PHP (blog post)
 	text-align: right;
 }
 
-
-
-
-.post-XX {} /* the ID of the element being displayed; used for both the posts and the pages */
-.post {} /* if it's a post */
-.page {} /* if it's a page */
-.attachment {} /* if it's an attachment; on most sites this is not used */
-.sticky {} /* if it's a sticky post */
-.format-YY {} /* assigned to custom content types - YY is the name of the content type, e.g. "audio" */
-
-.alignleft { }
-.alignright { }
 .single-post-article {
 	line-height: 1;
 	margin: auto;
 }
-hr {
-	border-style: dashed;
-	margin: 5em 0;
-}
+
 
