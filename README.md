@@ -1,2 +1,3 @@
-WP
-==
+A Wordpress Theme
+___
+
